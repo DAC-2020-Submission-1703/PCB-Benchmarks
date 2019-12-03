@@ -3,10 +3,13 @@
 These are PCB benchmarks for automated layout as described in DAC 2020 submission 1703.
 We have made efforts to anonymize this repo to facilitate the blind academic review process or DAC. The full repo will be updated with author information and so on after the review period.
 
+## Metrics
 The primary metrics for PCB layout are through-hole via count, required routing layers, required laser via layers, and area of the smallest rectangular bounding box. These metrics affect manufacturing cost.
 
 A secondary metric is routed track length. It does not affect cost or correctness for these low-speed designs, but may be useful for evaluating the quality of a placement.
 
+
+## Technical details
 Each benchmark is manually placed and routed. 
 To use as a layout benchmark, remove the manual routing and ignore the manual placement.
 
